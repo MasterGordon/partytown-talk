@@ -15,7 +15,7 @@ export default function Home() {
         <Heading as="h1" fontSize="7xl">
           Introducing Partytown 🎉
         </Heading>
-        <Stack>
+        <Stack fontSize="xl">
           <p>
             - Free up main thread resources to be used only for the primary web
             app execution.
@@ -43,8 +43,7 @@ export default function Home() {
             <Image src="/arch.png" alt="event-loop" width="800" height="450" />
           </Box>
         </Stack>
-        <PrevPage to="/" />
-        <NextPage to="/blocking" />
+        <PrevPage to="/blocking" />
         <NextPage to="/blocking-partytown" />
       </Stack>
     </Flex>

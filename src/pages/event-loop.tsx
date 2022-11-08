@@ -21,7 +21,7 @@ export default function Home() {
           width="1024"
           height="768"
         />
-        <PrevPage to="/" />
+        <PrevPage to="/overview" />
         <NextPage to="/blocking" />
       </Stack>
     </Flex>

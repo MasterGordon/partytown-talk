@@ -22,7 +22,7 @@ export default function Home() {
           Slides: https://partytown-talk.vercel.app/
         </Heading>
       </Center>
-      <NextPage to="/event-loop" />
+      <NextPage to="/overview" />
     </Flex>
   );
 }
