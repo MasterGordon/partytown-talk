@@ -47,6 +47,7 @@ export default function Home() {
         </Actor>
       </Stack>
       <PrevPage to="/tracking-partytown" />
+      <NextPage to="/thanks" />
     </Flex>
   );
 }
